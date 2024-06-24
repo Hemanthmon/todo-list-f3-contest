@@ -120,7 +120,7 @@ function addTaskToList(taskDiv,date,itemName,priority,completed){
         taskDiv.style.color='black';    
         taskDiv.style.border='2px solid black';
         taskDiv.style.backgroundColor='white';
-        trashBtn.setAttribute('src', '/trash-black.png');
+        trashBtn.setAttribute('src', './trash-black.png');
     } else {
         if (todayDateString === selectedDateString){
             tCount++;
